@@ -11,19 +11,25 @@ html, body {
     background-color: black;
 }
 
+body {
+    background:url(../imagens/Fundo.jpg) no-repeat top center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
 main {
     height: 100vh;
     position: relative;
-    background-color: chartreuse;
+    
 }
 
 section#telefone{
-   height: 200px; 
-   width: 500px;
-   background: url('.../imagens/frame.iphone.png');
+   height: 400px; 
+   width: 389px;
    position: absolute;
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
-  
+  background:url('../imagens/frame.iphone.png')no-repeat;
 }
