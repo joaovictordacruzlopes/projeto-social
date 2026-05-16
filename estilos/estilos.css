@@ -25,11 +25,21 @@ main {
 }
 
 section#telefone{
-   height: 400px; 
-   width: 389px;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-  background:url('../imagens/frame.iphone.png')no-repeat;
-}
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+   height: 627px; 
+   width: 311px; 
+   background: url('../imagens/frame-iphone.png') no-repeat center;
+} 
+
+   iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
+    
+ }
